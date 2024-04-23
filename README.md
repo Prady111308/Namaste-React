@@ -1,1 +1,17 @@
-React course 
+#parcel
+- Dev build
+- create Local server
+- HMR = Hot Module Replacement
+- file Watching algorithm - written in C++
+- Faster build - using caching
+- Image optimizatio
+- Minification 
+- Bundling
+- Compressing
+- Consistent Hashing
+- Code Spliting
+- Differential Bundling - to support older browsers
+- Diaognostic
+- Error Handler
+- HTTPs
+- Tree Shaking - remove unused code 
