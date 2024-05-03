@@ -1,10 +1,23 @@
-#heading
-{
-  color:blueviolet
-}
-h1{
-    color:blueviolet
-}
-h2{
-    color:brown
-}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+    /* Define shimmer animation */
+    @keyframes shimmer {
+      0% {
+        background-position: -1000px;
+      }
+      100% {
+        background-position: 1000px;
+      }
+    }
+
+    .animate-shimmer {
+        animation: shimmer 8s infinite linear;
+        background: linear-gradient(to right, #dcdada 10%, #dbd9d9 25%,#e0dede 36%);
+        background-size: 1000px 100%;
+      }
+  
