@@ -5,7 +5,8 @@
   "scripts": {
     "start": "npx parcel index.html",
     "build": "npx parcel build index.html",
-    "test": "jest"
+    "test": "jest",
+    "watch-test" : "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,10 @@
   },
   "homepage": "https://github.com/Prady111308/Namaste-React#readme",
   "dependencies": {
+    "@babel/preset-react": "^7.24.1",
     "@reduxjs/toolkit": "^2.2.3",
+    "install": "^0.13.0",
+    "npm": "^10.7.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^5.1.0",
@@ -29,6 +33,7 @@
   "devDependencies": {
     "@babel/core": "^7.24.5",
     "@babel/preset-env": "^7.24.5",
+    "@testing-library/jest-dom": "^6.4.3",
     "@testing-library/react": "^15.0.6",
     "babel-jest": "^29.7.0",
     "buffer": "^6.0.3",
@@ -39,7 +44,7 @@
     "process": "^0.11.10",
     "tailwindcss": "^3.4.3"
   },
-  "browserlist": [
+  "browserslist": [
     "last 2 versions"
   ]
 }

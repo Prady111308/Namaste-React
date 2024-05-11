@@ -1,11 +1,11 @@
-import logo from '../../Images/foodLogo.png';
+
 import {Link} from 'react-router-dom'
 import { LuShoppingCart } from "react-icons/lu";
 import useOnlineStatus from '../../hooks/useOnlineStatus';
 import { useContext } from 'react';
 import userContext from '../../hooks/UserContext';
 import { useSelector } from 'react-redux';
-// import { LOGO } from "../../untils/constants";
+import logo from '../../Images/foodLogo.png';
 
 
 const Header = () =>{ 

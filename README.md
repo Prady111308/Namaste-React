@@ -40,4 +40,8 @@
   - configure Babel <babel.config.js>
   - configure Parcel config file <.parcelrc> to disable default babel transpiler
   - jest configure  npx jest init => <jest.config.js>
-  - Install jsdom library
+  - Install jsdom library 
+  - __tests__ folder for writing method <dunder method>
+  - Install @babel/preset-react - to make JSX work in test cases
+ - Include @babel/preset-react include babel config file
+ - Install npm i -D @testing-library/jest-dom
