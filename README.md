@@ -43,5 +43,5 @@
   - Install jsdom library 
   - __tests__ folder for writing method <dunder method>
   - Install @babel/preset-react - to make JSX work in test cases
- - Include @babel/preset-react include babel config file
+ - Include config file
  - Install npm i -D @testing-library/jest-dom
